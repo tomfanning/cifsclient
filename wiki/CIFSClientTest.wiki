@@ -6,6 +6,21 @@ For test CIFSClient at real world has been created a aplication for test purpose
 
 This aplication simulate a console for working with shared files.
 
-
+http://cifsclient.googlecode.com/svn/trunk/test_win.png
 
 The avaible commands are:
+
+  *shares
+  *mkdir
+  *ls
+  *cd
+  *abs
+  *pwd
+  *rm
+  *rmdir
+  *cp
+  *mv
+  *rename
+  *renamedir
+  *help
+  *about
