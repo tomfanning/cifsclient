@@ -1,0 +1,16 @@
+<Combine name="TestCIFSClient" fileversion="2.0">
+  <Configurations active="Debug">
+    <Configuration name="Debug" ctype="CombineConfiguration">
+      <Entry build="True" name="TestCIFSClient" configuration="Debug" />
+    </Configuration>
+    <Configuration name="Release" ctype="CombineConfiguration">
+      <Entry build="True" name="TestCIFSClient" configuration="Release" />
+    </Configuration>
+  </Configurations>
+  <StartMode startupentry="TestCIFSClient" single="True">
+    <Execute type="None" entry="TestCIFSClient" />
+  </StartMode>
+  <Entries>
+    <Entry filename="TestCIFSClient.mdp" />
+  </Entries>
+</Combine>

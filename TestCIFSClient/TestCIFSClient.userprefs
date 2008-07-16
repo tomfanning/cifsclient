@@ -1,0 +1,28 @@
+﻿<UserCombinePreferences version="1.0" filename="/home/jmartin/tfc/src/TestCIFSClient/TestCIFSClient.mds">
+  <Files>
+    <File name="MainForm.cs" line="13" column="3" />
+    <File name="CifsConsole.cs" line="127" column="1" />
+  </Files>
+  <Views>
+    <ViewMemento id="ProjectPad">
+      <Node expanded="True">
+        <Node name="TestCIFSClient" expanded="True">
+          <Node name="MainForm.cs" selected="True" />
+        </Node>
+      </Node>
+    </ViewMemento>
+    <ViewMemento id="ClassPad">
+      <Node expanded="True" />
+    </ViewMemento>
+    <ViewMemento id="ConnectionManagerPad">
+      <Node />
+    </ViewMemento>
+    <ViewMemento id="MonoDevelop.NUnit.TestPad">
+      <Node />
+    </ViewMemento>
+  </Views>
+  <Properties>
+    <Property key="ActiveWindow" value="/home/jmartin/tfc/src/TestCIFSClient/MainForm.cs" />
+    <Property key="ActiveConfiguration" value="Debug" />
+  </Properties>
+</UserCombinePreferences>
