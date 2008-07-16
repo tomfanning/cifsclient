@@ -1,0 +1,16 @@
+<Combine fileversion="1.0" name="TestCIFSClient" description="">
+  <StartMode startupentry="TestCIFSClient" single="True">
+    <Execute entry="TestCIFSClient" type="None" />
+  </StartMode>
+  <Entries>
+    <Entry filename=".\TestCIFSClient.prjx" />
+  </Entries>
+  <Configurations active="Debug">
+    <Configuration name="Release">
+      <Entry name="TestCIFSClient" configurationname="Debug" build="False" />
+    </Configuration>
+    <Configuration name="Debug">
+      <Entry name="TestCIFSClient" configurationname="Debug" build="False" />
+    </Configuration>
+  </Configurations>
+</Combine>

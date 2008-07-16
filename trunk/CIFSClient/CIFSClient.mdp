@@ -1,0 +1,39 @@
+<Project name="CIFSClient" fileversion="2.0" DefaultNamespace="CIFSClient" language="C#" clr-version="Net_2_0" ctype="DotNetProject">
+  <Configurations active="Debug">
+    <Configuration name="Debug" ctype="DotNetProjectConfiguration">
+      <Output directory="bin/Debug" assemblyKeyFile="." assembly="CIFSClient" />
+      <Build debugmode="True" target="Library" />
+      <Execution runwithwarnings="True" consolepause="True" runtime="MsNet" clr-version="Net_2_0" />
+      <CodeGeneration compiler="Mcs" warninglevel="4" optimize="True" unsafecodeallowed="True" generateoverflowchecks="True" mainclass="" definesymbols="LINUX" generatexmldocumentation="True" win32Icon="." ctype="CSharpCompilerParameters" />
+    </Configuration>
+    <Configuration name="Release" ctype="DotNetProjectConfiguration">
+      <Output directory="bin/Release" assemblyKeyFile="." assembly="CIFSClient" />
+      <Build debugmode="False" target="Library" />
+      <Execution runwithwarnings="True" consolepause="True" runtime="MsNet" clr-version="Net_2_0" />
+      <CodeGeneration compiler="Mcs" warninglevel="4" optimize="True" unsafecodeallowed="True" generateoverflowchecks="True" mainclass="" generatexmldocumentation="False" win32Icon="." ctype="CSharpCompilerParameters" />
+    </Configuration>
+  </Configurations>
+  <Contents>
+    <File name="WrapperWin32Api.cs" subtype="Code" buildaction="Compile" />
+    <File name="WrapperSambaClient.cs" subtype="Code" buildaction="Compile" />
+    <File name="Win32Client.cs" subtype="Code" buildaction="Compile" />
+    <File name="Share.cs" subtype="Code" buildaction="Compile" />
+    <File name="Shares.cs" subtype="Code" buildaction="Compile" />
+    <File name="SambaDirInfo.cs" subtype="Code" buildaction="Compile" />
+    <File name="SambaClient.cs" subtype="Code" buildaction="Compile" />
+    <File name="Cifs.cs" subtype="Code" buildaction="Compile" />
+    <File name="Main.cs" subtype="Code" buildaction="Compile" />
+    <File name="IClient.cs" subtype="Code" buildaction="Compile" />
+    <File name="ClientFactory.cs" subtype="Code" buildaction="Compile" />
+    <File name="AssemblyInfo.cs" subtype="Code" buildaction="Compile" />
+    <File name="Tests.cs" subtype="Code" buildaction="Compile" />
+    <File name="Win32ShareType.cs" subtype="Code" buildaction="Compile" />
+    <File name="SambaShareType.cs" subtype="Code" buildaction="Compile" />
+    <File name="CIFSDirInfo.cs" subtype="Code" buildaction="Compile" />
+  </Contents>
+  <References>
+    <ProjectReference type="Gac" localcopy="True" refto="nunit.framework, Version=2.2.8.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77" />
+    <ProjectReference type="Gac" localcopy="True" refto="System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <ProjectReference type="Gac" localcopy="True" refto="Mono.Posix, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756" />
+  </References>
+</Project>
