@@ -1,0 +1,11 @@
+#labels Featured,Phase-QA
+#Test aplication
+= Details =
+
+For test CIFSClient at real world has been created a aplication for test purpose. 
+
+This aplication simulate a console for working with shared files.
+
+
+
+The avaible commands are:
