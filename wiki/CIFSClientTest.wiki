@@ -10,20 +10,20 @@ http://cifsclient.googlecode.com/svn/trunk/test_win.png
 
 The avaible commands are:
 
-  *shares
-  *mkdir
-  *ls
-  *cd
-  *abs
-  *pwd
-  *rm
-  *rmdir
-  *cp
-  *mv
-  *rename
-  *renamedir
-  *help
-  *about
+  * shares
+  * mkdir
+  * ls
+  * cd
+  * abs
+  * pwd
+  * rm
+  * rmdir
+  * cp
+  * mv
+  * rename
+  * renamedir
+  * help
+  * about
 
 
 Use example:
